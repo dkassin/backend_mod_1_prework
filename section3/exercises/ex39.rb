@@ -65,7 +65,7 @@ city = cities['TX']
 city ||= 'Does Not Exist'
 puts "The city for the state 'TX' is: #{city}"
 
-soccerteams = {
+soccer_teams = {
   'Real Madrid' => 'RM',
   'Atletico Madrid' => 'AM',
   'Barcelona' => 'BAR',
@@ -73,5 +73,5 @@ soccerteams = {
   'Valencia' => 'VAL'
 }
 
-puts "Real Madrid's abbreviation is: #{soccerteams['Real Madrid']}"
-puts "Valencia's abbreviation is: #{soccerteams['Valencia']}"
+puts "Real Madrid's abbreviation is: #{soccer_teams['Real Madrid']}"
+puts "Valencia's abbreviation is: #{soccer_teams['Valencia']}"
