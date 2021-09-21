@@ -18,22 +18,22 @@ cheese_and_crackers(20,30)
 
 # Print a string
 puts "OR, we can use variables from our scripts:"
-# create a variable amount_of_cheese
+# Create a variable amount_of_cheese
 amount_of_cheese = 10
-# create a varible amount_of_crackers
+# Create a varible amount_of_crackers
 amount_of_crackers = 50
 
 # Call method with variables amount_of_cheese and amount_of_crackers as arguments
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
-# print string
+# Print string
 puts "We can even do math inside too:"
 # Call a method with addition being done for both arguments
 cheese_and_crackers(10 + 20, 5 + 6)
 
-# print string
+# Print string
 puts "And we can combine the two, variables and math:"
-# call method with variables and addition for both arguments
+# Call method with variables and addition for both arguments
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 
