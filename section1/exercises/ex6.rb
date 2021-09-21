@@ -9,23 +9,23 @@ do_not = "don't"
 # Create a variable for a string that also inserts variables binary and do_not
 y = "Those who know #{binary} and those who #{do_not}."
 
-# prints variable x
+# Print variable x
 puts x
-# prints variable y
+# Print variable y
 puts y
-# prits string with variable x inserted
+# Print string with variable x inserted
 puts "I said: #{x}."
-# prints a string with variable y inserted
+# Print a string with variable y inserted
 puts "I also said: '#{y}'."
-# creates a variable hilarious
+# Create a variable hilarious
 hilarious = false
-# creates a variable for a string with variable hilarious inserted
+# Create a variable for a string with variable hilarious inserted
 joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
-# prints variable joke_evaluation
+# Print variable joke_evaluation
 puts joke_evaluation
-# Creates a variable w for a string
+# Create a variable w for a string
 w = "This is the left side of..."
-# Creates a variable e for a string
+# Create a variable e for a string
 e = "a string with a right side."
 
 # combines variables w and e and prints
@@ -38,4 +38,4 @@ Study drills answers
 4. It combines to variables which are strings and then prints them.
 5. It still works if you change the quotes to single quotes. Either one can
 be used.
-=end 
+=end

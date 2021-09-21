@@ -27,5 +27,5 @@ puts "We need to put about #{average_passengers_per_car} in each car."
 Study drill answers:
 1. Carpool capacity was not properly defined
 2. Its not necessary to put 4.0 for a space in a car bc there cant be fractions of passengers. Nothing would change if it was for it would
-just be no more decimal point. 
+just be no more decimal point.
 =end
